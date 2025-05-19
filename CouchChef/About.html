@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CouchChef</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <style>
+    .nav-bar {
+      background-color: #0071f2;
+    }
+
+    .nav-link {
+      color: white !important;
+      font-weight: bold;
+      margin-right: 1rem;
+    }
+
+    .nav-link:hover {
+      text-decoration: underline;
+    }
+
+    .logo-circle {
+      width: 50px;
+      height: 50px;
+      background-color: red;
+      border-radius: 50%;
+    }
+
+    .hero-section {
+      position: relative;
+      height: 500px;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-align: center;
+    }
+
+    .hero-section img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -1;
+    }
+
+    .hero-overlay {
+      background-color: rgba(0, 0, 0, 0.7);
+      padding: 40px;
+      width: 50%;
+      height: 40%;
+      margin-left: -450px;
+      margin-top: 80px;
+
+    }
+
+    .hero-section h1 {
+      font-size: 48px;
+      font-weight: bold;
+    }
+
+    .hero-section p {
+      font-size: 20px;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    .section {
+      padding: 0px;
+
+    }
+
+    .section-row {
+      display: flex;
+      align-items: center;
+      text-align: center;
+
+    }
+
+    .section img {
+      width: 100%;
+     border-radius: 8px;
+    }
+
+    .benefits-section {
+      background-color: #ff8500;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    .benefits-description {
+      margin: 0 auto 40px;
+      max-width: 700px;
+      font-size: 1.1rem;
+      color: white;
+    }
+
+    .benefits-row {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .benefit-card {
+      padding: 20px;
+      flex: 0 0 300px;
+      margin: 10px;
+      background: #fff;
+      border-radius: 12px;
+    }
+
+    .benefit-icon {
+      font-size: 48px;
+      color: #000;
+      margin-bottom: 10px;
+      display: block;
+    }
+
+    .footer {
+      background-color: #0071f2;
+      color: white;
+      padding: 1rem 1rem;
+
+     }
+
+    .footer a {
+      color: white;
+      text-decoration: none;
+      width: 100%;
+
+    }
+
+    .social-icons img {
+      width: 40px;
+     float: right;   
+    }
+
+    .box2{
+      padding-left: 100px;
+      margin-top: 50px;
+    }
+
+   .box1{
+    float: right;
+    margin-top: 50px;
+   }
+
+   h2{
+    color: black;
+     }
+
+    h6{
+      font-weight: bold;
+    }
+    h7{
+      color: white;
+      font-weight: bold;
+      font-size: 40px;
+    }
+
+    h8{
+      font-weight: bold;
+    }
+
+   .text-right{
+     width: 80%;
+     margin-left: 50px;
+   }
+
+   .text-left{
+     width: 80%;
+     margin-left:75px;
+   }
+
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg nav-bar">
+      <div class="container d-flex align-items-center justify-content-between">
+        <div class="d-flex align-items-center">
+              <a href="index.html">
+          <img src="Websiteready/logo.svg" alt="Site Logo" style="height: 45px;" class="me-3">
+        </a>
+          <ul class="navbar-nav flex-row">
+            <li class="nav-item"><a class="nav-link" href="About.html">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+            <li class="nav-item"><a class="nav-link" href="Videos.html">Videos</a></li>
+            <li class="nav-item"><a class="nav-link" href="store.html">Store</a></li>
+          </ul>
+        </div>
+        <form class="d-flex me-3">
+          <input class="form-control me-2" type="search" placeholder="Search">
+        </form>
+        <div class="text-white fw-bold">👤 Sign In </div>
+      </div>
+    </nav>
+
+ <!-- HERO SECTION -->
+  <div class="hero-section">
+    <img src="Websiteready/hero.jpg" alt="Mission Statement Hero Image">
+     <div class="hero-overlay">
+      <h1>MISSION STATEMENT</h1>
+      <p>Our mission is to empower aspiring cooks with the skills and knowledge to create delicious meals effortlessly</p>
+    </div>
+    </div>
+  </div>
+
+  <!-- WHO ARE WE -->
+   <div class="container-fluid section px-0">
+    <div class="row section-row">
+      <div class="col-6">
+        <img src="Websiteready/Whophoto.jpg" alt="Who Are We Image" class="img-fluid">
+      </div>
+      <div class="col-6">
+      <div class="text-right">
+        <h2>Who Are We?</h2>
+        <p>We are a cooking website that helps beginners learn through step-by-step videos. Our platform makes cooking simple with easy lessons, expert tips, and resources.</p>
+      </div>
+     </div>
+    </div>
+  </div>
+
+  <!-- WHY US -->
+   <div class="container-fluid section px-0">
+    <div class="row section-row">
+      <div class="col-6">
+        <div class="text-left">
+         <h2>Why Us?</h2>
+         <p>We collaborate with experienced chefs to offer valuable insights for mastering the kitchen, providing the knowledge needed to become a confident and capable chef.</p>
+      </div>
+    </div>
+      <div class="col-6">
+        <img src="Websiteready/Whyphoto.jpg" alt="Why Us Image" class="img-fluid">
+      </div>
+    </div>
+  </div>
+
+  <!-- BENEFITS -->
+   <div class="container-fluid benefits-section">
+      <h7>Benefits</h7>
+      <p class="benefits-description">
+      CouchChef offers a structured virtual experience that brings our culinary arts expertise right to you wherever you are.
+      </p>
+    <div class="row benefits-row">
+      <div class="benefit-card">
+        <span class="material-icons benefit-icon">school</span>
+        <h5>Learn from Experts</h5>
+        <p>Gain insights and tips directly from chefs to improve your cooking skills</p>
+      </div>
+      <div class="benefit-card">
+        <span class="material-icons benefit-icon">accessibility</span>
+        <h5>Easy & Accessible</h5>
+        <p>Our easy-to-follow tutorials make cooking approachable for beginners.</p>
+      </div>
+      <div class="benefit-card">
+        <span class="material-icons benefit-icon">emoji_events</span>
+        <h5>Build Confidence</h5>
+        <p>With each video, you'll gain the skills needed to confidently create delicious meals.</p>
+      </div>
+     </div>
+   </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <!-- Mission -->
+        <div class="col-3">
+          <a href="index.html">
+        <img src="Websiteready/logo.svg" alt="Site Logo" style="height: 80px;" class="me-1">
+      </a>
+      <br>
+          <h7>Mission Statement</h7>
+          <p>Our mission is to empower aspiring cooks with the skills and knowledge to create delicious meals effortlessly.</p>
+          <p>📞 (718) - 472 - 3146<br>📧 CouchChefSupport@gmail.com</p>
+        </div>
+         <div class="col-2"></div>
+        <!-- Explore -->
+
+  
+        <div class="col-4">
+          <div class="box2">
+          <h6>Explore</h6>
+          <ul class="list-unstyled">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="About.html">About Us</a></li>
+            <li><a href="Videos.html">Videos</a></li>
+            <li><a href="Store.html">Store</a></li>
+            <li><a href="contact.html">Contact Form</a></li>
+          </ul>
+        </div>
+        </div>
+
+
+
+        <!-- Helpful Links -->
+        <div class="col-3">
+          <div class="box1">
+          <h8>Helpful Links</h8>
+          <ul class="list-unstyled">
+            <li><a href="#">Services</a></li>
+            <li><a href="#">SiteMap</a></li>
+            <li><a href="#">Terms & Conditions</a></li>
+            <li><a href="#">Private Policy</a></li>
+            <li><a href="#">My Account</a></li>
+          </ul>
+
+
+
+          <div class="social-icons mt-3">
+            <img src="Websiteready/insta4.png" alt="Instagram">
+            <img src="Websiteready/face10.png" alt="Facebook">
+            <img src="Websiteready/twitter.png" alt="Twitter">
+            <img src="Websiteready/youtube.png" alt="YouTube">
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+
+  </div>
+
+  </footer>
+
+
+
+</body>
+</html>

@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CouchChef</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .nav-bar {
+      background-color: #0071f2;
+    }
+
+    .nav-link {
+      color: white !important;
+      font-weight: bold;
+      margin-right: 1rem;
+    }
+
+    .nav-link:hover {
+      text-decoration: underline;
+    }
+
+    .logo-circle {
+      width: 50px;
+      height: 50px;
+      background-color: red;
+      border-radius: 50%;
+    }
+
+    .video-img {
+      position: relative;
+      overflow: hidden;
+      border-radius: 10px;
+      margin-bottom: 10px;
+    }
+
+    .most-popular {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      background-color: black;
+      color: white;
+      padding: 4px 8px;
+      font-size: 12px;
+      border-radius: 5px;
+      z-index: 1;
+    }
+
+    .image-placeholder {
+      height: 150px;
+      width: 100%;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+
+    .more-videos-btn {
+      background-color: red;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      font-weight: bold;
+    }
+
+    .more-videos-btn:hover {
+      background-color: darkred;
+    }
+
+    .divider {
+      height: 3px;
+      background-color: orange;
+      margin: 40px 0;
+      width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
+    .graybar{
+      background-color: #eeebeb;
+      padding: 10px;
+      margin-bottom: 50px;
+    }
+
+    .footer {
+      background-color: #0071f2;
+      color: white;
+      padding: 1rem 1rem;
+    }
+
+    .footer a {
+      color: white;
+      text-decoration: none;
+      width: 100%;
+    }
+
+    .social-icons img {
+      width: 40px;
+      float: right; 
+    }
+
+    .box2{
+      padding-left: 100px;
+      margin-top: 50px;
+    }
+
+   .box1{
+     float: right;
+     margin-top: 50px;
+    }
+
+   h6{
+    font-weight: bold;
+   }
+
+   h8{
+    font-weight: bold;
+   }
+
+ </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+   <nav class="navbar navbar-expand-lg nav-bar">
+      <div class="container d-flex align-items-center justify-content-between">
+        <div class="d-flex align-items-center">
+              <a href="index.html">
+          <img src="Websiteready/logo.svg" alt="Site Logo" style="height: 45px;" class="me-3">
+        </a>
+          <ul class="navbar-nav flex-row">
+            <li class="nav-item"><a class="nav-link" href="About.html">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+            <li class="nav-item"><a class="nav-link" href="Videos.html">Videos</a></li>
+            <li class="nav-item"><a class="nav-link" href="store.html">Store</a></li>
+          </ul>
+        </div>
+        <form class="d-flex me-3">
+          <input class="form-control me-2" type="search" placeholder="Search">
+        </form>
+        <div class="text-white fw-bold">👤 Sign In </div>
+      </div>
+    </nav>
+
+  <!-- GraySection -->
+    <div class="graybar">
+      <div class="container my-5">
+       <h1>Cooking Videos</h1>
+       <p>Our cooking videos turn up the heat on fun, making learning in the kitchen a tasty adventure!</p>
+     </div>
+    </div>
+
+  <!-- Breakfast Section -->
+   <div class="container mb-5">
+    <div class="row">
+     <div class="col-md-3">
+      <h3>Breakfast</h3>
+      <p>Wake up to flavor-packed bites that kick-start your day!</p>
+      <button class="more-videos-btn">MORE VIDEOS</button>
+    </div>
+
+    <div class="col-3">
+      <div class="video-img">
+        <div class="most-popular">Most Popular</div>
+        <img src="Websiteready/Frenchtoast.jpg" alt="Frenchtoast" class="image-placeholder">
+      </div>
+        <p class="mt-2">French Toast</p>
+    </div>
+
+    <div class="col-3">
+      <img src="Websiteready/Oatmeal.jpg" alt="Oatmeal" class="image-placeholder">
+      <p class="mt-2">Oatmeal</p>
+    </div>
+
+    <div class="col-3">
+      <img src="Websiteready/Crepes.jpg" alt="Crepes" class="image-placeholder">
+      <p class="mt-2">Whole Wheat Crepes</p>
+    </div>
+   </div>
+  </div>
+
+  <div class="divider"></div>
+
+  <!-- Lunch Section -->
+   <div class="container mb-5">
+    <div class="row">
+     <div class="col-3">
+      <h3>Lunch</h3>
+      <p>Power through the day with mouthwatering meals made easy!</p>
+      <button class="more-videos-btn">MORE VIDEOS</button>
+    </div>
+
+   <div class="col-3">
+    <a href="Playvideo.html" style="text-decoration: none; color: inherit;">
+      <div class="video-img">
+        <div class="most-popular">Most Popular</div>
+         <img src="Websiteready/Friedrice.jpg" alt="Chicken Fried Rice" class="image-placeholder">
+      </div>
+         <p class="mt-2">Chicken Fried Rice</p>
+    </a>
+   </div>
+
+   <div class="col-3">
+    <img src="Websiteready/Quinoa.jpg" alt="Quinoa Bowl" class="image-placeholder">
+      <p class="mt-2">Chicken & Quinoa Bowl</p>
+    </div>
+
+    <div class="col-3">
+      <img src="Websiteready/Greeksalad.jpg" alt="Greek salad" class="image-placeholder">
+      <p class="mt-2">Greek Salad</p>
+    </div>
+   </div>
+  </div>
+
+
+<div class="divider"></div>
+
+  <!-- Dinner Section -->
+   <div class="container mb-5">
+    <div class="row">
+     <div class="col-3">
+      <h3>Dinner</h3>
+      <p>Unwind and savor every bite with dinners that bring everyone to the table!</p>
+      <button class="more-videos-btn">MORE VIDEOS</button>
+    </div>
+
+    <div class="col-3">
+      <div class="video-img">
+        <div class="most-popular">Most Popular</div>
+        <img src="Websiteready/Pizzadillas.jpg" alt="Pizzadillas" class="image-placeholder">
+      </div>
+      <p class="mt-2">Pizzadillas</p>
+    </div>
+
+    <div class="col-3">
+      <img src="Websiteready/Skillet.jpg" alt="Skillet" class="image-placeholder">
+      <p class="mt-2">Steak & Potato Skillet</p>
+    </div>
+
+    <div class="col-3">
+       <img src="Websiteready/Burger.jpg" alt="Burger" class="image-placeholder">
+      <p class="mt-2">Turkey Burger</p>
+     </div>
+    </div>
+   </div>
+
+  <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <!-- Mission -->
+          <div class="col-3">
+             <a href="index.html">
+          <img src="Websiteready/logo.svg" alt="Site Logo" style="height: 80px;" class="me-1">
+        </a>
+        <br>
+            <h7>Mission Statement</h7>
+            <p>Our mission is to empower aspiring cooks with the skills and knowledge to create delicious meals effortlessly.</p>
+            <p>📞 (718) - 472 - 3146<br>📧 CouchChefSupport@gmail.com</p>
+          </div>
+           <div class="col-2"></div>
+
+   <!-- Explore -->
+    <div class="col-4">
+      <div class="box2">
+         <h6>Explore</h6>
+         <ul class="list-unstyled">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="About.html">About Us</a></li>
+          <li><a href="Videos.html">Videos</a></li>
+          <li><a href="Store.html">Store</a></li>
+          <li><a href="contact.html">Contact Form</a></li>
+        </ul>
+       </div>
+    </div>
+
+  <!-- Helpful Links -->
+    <div class="col-3">
+      <div class="box1">
+        <h8>Helpful Links</h8>
+        <ul class="list-unstyled">
+          <li><a href="#">Services</a></li>
+          <li><a href="#">SiteMap</a></li>
+          <li><a href="#">Terms & Conditions</a></li>
+          <li><a href="#">Private Policy</a></li>
+          <li><a href="#">My Account</a></li>
+        </ul>
+
+     <div class="social-icons mt-3">
+       <img src="Websiteready/insta4.png" alt="Instagram">
+       <img src="Websiteready/face10.png" alt="Facebook">
+       <img src="Websiteready/twitter.png" alt="Twitter">
+       <img src="Websiteready/youtube.png" alt="YouTube">
+      </div>
+      </div>
+      </div>
+    </div>
+    </div>
+  </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CouchChef</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .nav-bar {
+      background-color: #0071f2;
+    }
+
+    .nav-link {
+      color: white !important;
+      font-weight: bold;
+      margin-right: 1rem;
+    }
+
+    .nav-link:hover {
+      text-decoration: underline;
+    }
+ 
+    .gray{
+      background-color: #eeebeb;
+      padding: 15px;
+      margin-bottom: 50px;
+    }
+
+    .banner-image {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .product-image {
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+    }
+
+    .product-card {
+      background-color: #ff8500;
+      padding-top: 10px;
+      text-align: center;
+      margin-bottom: 50px;
+      color: white;
+      height: 200px;
+    }
+
+    .add-to-cart {
+      background-color: red;
+      color: white;
+      border: none;
+      padding: 5px 10px;
+      margin-top: -20px;
+    }
+
+    .banner-container {
+      position: relative;
+      margin-bottom: 2rem;
+    }
+
+    .banner-image {
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+    }
+
+    .banner-bk {
+      margin-left: 12px;
+      padding-right: -40px;
+      position: absolute;
+      width: -100px;
+      bottom: 0;
+      left: 0;
+      background-color: rgba(0, 0, 0, 0.8);
+      color: white;
+      padding: 20px;
+      width: 45%;
+    }
+
+
+
+
+    .footer {
+      background-color: #0071f2;
+      color: white;
+      padding: 1rem 1rem;
+     }
+
+    .footer a {
+      color: white;
+      text-decoration: none;
+      width: 100%;
+    }
+    .social-icons img {
+      width: 40px;
+     float: right;  
+    }
+
+    .box2{
+      padding-left: 100px;
+      margin-top: 50px;
+    }
+
+     .box1{
+      float: right;
+      margin-top: 50px;
+     }
+
+    h5{
+
+      margin-bottom: 50px;
+    }
+     h6{
+      font-weight: bold;
+     }
+     h8{
+      font-weight: bold;
+     }
+    .text{
+      margin-top: 10px;
+    }
+
+ </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg nav-bar">
+      <div class="container d-flex align-items-center justify-content-between">
+        <div class="d-flex align-items-center">
+           <a href="index.html">
+          <img src="Websiteready/logo.svg" alt="Site Logo" style="height: 45px;" class="me-3">
+          </a>
+           <ul class="navbar-nav flex-row">
+            <li class="nav-item"><a class="nav-link" href="About.html">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="Contact.html">Contact</a></li>
+            <li class="nav-item"><a class="nav-link" href="Videos.html">Videos</a></li>
+            <li class="nav-item"><a class="nav-link" href="store.html">Store</a></li>
+           </ul>
+        </div>
+        <form class="d-flex me-3">
+          <input class="form-control me-2" type="search" placeholder="Search">
+        </form>
+        <div class="text-white fw-bold">👤 Sign In </div>
+      </div>
+    </nav>
+
+  <!-- Textblock -->
+    <div class="gray">
+     <div class="container mt-3">
+      <p>Home > Store</p>
+      <h2>Store</h2>
+     </div>
+    </div>
+
+  <!-- Banner Section -->
+    <div class="container banner-container">
+      <img src="Websiteready/Web5.jpg" alt="Banner" class="banner-image">
+       <div class="banner-bk">
+        <div class="banner-text">
+         <p>Get top-quality kitchen appliances without breaking the bank! We offer the perfect balance of durability, performance, and affordability, so you can cook with confidence every day.</p>
+       </div>
+      </div>
+    </div>
+
+  <!-- Products -->
+   <div class="container">
+    <h5>6 results found</h5>
+     <div class="row g-4">
+
+  <!-- Product 1 -->
+    <div class="col-4">
+        <img src="Websiteready/Web6.jpg" alt="Toaster" class="product-image">
+        <div class="product-card">
+          <p>Cuisinart Classic<br>Four-Slice Toaster</p>
+          <h5>$54.99</h5>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+      </div>
+
+ <!-- Product 2 -->
+    <div class="col-4">
+      <img src="Websiteready/Web7.jpg" alt="Air Fryer" class="product-image">
+       <div class="product-card">
+        <p>Cuisinart 4.5-Qt.<br>Basket Air Fryer</p>
+        <h5>$89.95</h5>
+          <div class="cart">
+           <button class="add-to-cart">Add to Cart</button>
+        </div>
+      </div>
+     </div>
+
+ <!-- Product 3 -->
+    <div class="col-4">
+     <img src="Websiteready/Web8.jpg" alt="Blender" class="product-image">
+       <div class="product-card">
+         <p>Vitamix Ascent X2<br>Blender in Polar White</p>
+         <h5>$124.58</h5>
+        <button class="add-to-cart">Add to Cart</button>
+       </div>
+     </div>
+
+  <!-- Product 4 -->
+        <div class="col-4">
+          <img src="Websiteready/Web10.jpg" alt="Juicer" class="product-image">
+          <div class="product-card">
+            <p>Breville Juice<br>Fountain Cold Juicer</p>
+            <h5>$154.99</h5>
+            <button class="add-to-cart">Add to Cart</button>
+          </div>
+        </div>
+
+  <!-- Product 5 -->
+        <div class="col-4">
+          <img src="Websiteready/Web16.jpg" alt="Mixer" class="product-image">
+           <div class="product-card">
+            <p>KitchenAid Artisan<br>Series Matte White</p>
+            <h5>$230.99</h5>
+            <button class="add-to-cart">Add to Cart</button>
+          </div>
+        </div>
+
+   <!-- Product 6 -->
+      <div class="col-4">
+        <img src="Websiteready/Web15.jpg" alt="Grill" class="product-image">
+        <div class="product-card">
+          <p>GreenPan Elite<br>Black 7-in-1 Grill, Griddle</p>
+          <h5>$210.95</h5>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+ <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <!-- Mission -->
+        <div class="col-3">
+          <a href="index.html">
+        <img src="Websiteready/logo.svg" alt="Site Logo" style="height: 80px;" class="me-1">
+      </a>
+      <br>
+          <h7>Mission Statement</h7>
+          <p>Our mission is to empower aspiring cooks with the skills and knowledge to create delicious meals effortlessly.</p>
+          <p>📞 (718) - 472 - 3146<br>📧 CouchChefSupport@gmail.com</p>
+        </div>
+         <div class="col-2"></div>
+        <!-- Explore -->
+
+  
+        <div class="col-4">
+          <div class="box2">
+          <h6>Explore</h6>
+          <ul class="list-unstyled">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="Videos.html">Videos</a></li>
+            <li><a href="Store.html">Store</a></li>
+            <li><a href="contact.html">Contact Form</a></li>
+          </ul>
+        </div>
+        </div>
+
+  <!-- Helpful Links -->
+    <div class="col-3">
+       <div class="box1">
+        <h8>Helpful Links</h8>
+         <ul class="list-unstyled">
+          <li><a href="#">Services</a></li>
+          <li><a href="#">SiteMap</a></li>
+          <li><a href="#">Terms & Conditions</a></li>
+          <li><a href="#">Private Policy</a></li>
+          <li><a href="#">My Account</a></li>
+        </ul>
+      <div class="social-icons mt-3">
+          <img src="Websiteready/insta4.png" alt="Instagram">
+         <img src="Websiteready/face10.png" alt="Facebook">
+          <img src="Websiteready/twitter.png" alt="Twitter">
+          <img src="Websiteready/youtube.png" alt="YouTube">
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+
+  </div>
+
+  </footer>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
